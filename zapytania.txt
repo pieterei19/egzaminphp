@@ -1,0 +1,8 @@
+Zap 1:
+SELECT * FROM pracownicy; 
+Zap2:
+SELECT * FROM `pracownicy` WHERE pracownicy.nazwisko like "Król"
+Zap3:
+SELECT COUNT(id) as "ilosć pracowników" FROM `pracownicy` 
+Zap4:
+INSERT INTO `pracownicy`(`imie`, `nazwisko`, `PESEL`) VALUES ('Monika','Rak','00101843690')
